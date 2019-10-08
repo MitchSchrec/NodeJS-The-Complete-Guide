@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-the-complete-guide",
+  "version": "1.0.0",
+  "description": "Complete Node.js Guide Udemy Class",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MitchSchrec/NodeJS-The-Complete-Guide.git"
+  },
+  "author": "Mitchell Schrecongost",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MitchSchrec/NodeJS-The-Complete-Guide/issues"
+  },
+  "homepage": "https://github.com/MitchSchrec/NodeJS-The-Complete-Guide#readme"
+}
