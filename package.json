@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/MitchSchrec/NodeJS-The-Complete-Guide/issues"
   },
-  "homepage": "https://github.com/MitchSchrec/NodeJS-The-Complete-Guide#readme"
+  "homepage": "https://github.com/MitchSchrec/NodeJS-The-Complete-Guide#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
 }
