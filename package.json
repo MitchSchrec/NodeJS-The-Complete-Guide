@@ -20,5 +20,8 @@
   "homepage": "https://github.com/MitchSchrec/NodeJS-The-Complete-Guide#readme",
   "devDependencies": {
     "nodemon": "^1.19.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
