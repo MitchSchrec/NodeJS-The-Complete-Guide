@@ -1,7 +1,7 @@
 // Core Modules
 const path = require('path');
 
-// Third Party
+// Third Party Modules
 const express = require('express');
 const bodyParser = require('body-parser');
 
