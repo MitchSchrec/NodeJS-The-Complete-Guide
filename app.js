@@ -1,19 +1,13 @@
-// Core Modules
 const path = require('path');
 
-// Third Party Modules
 const express = require('express');
+
+const mainRoutes = require('./routes/index');
 
 const app = express();
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/users', (req, res, next) => {
-	res.sendFile(path.join(__dirname, 'views', 'users.html'));
-});
-
-app.get('/', (req, res, next) => {
-	res.sendFile(path.join(__dirname, 'views', 'home.html'));
-});
+app.use(mainRoutes);
 
 app.listen(3000);
